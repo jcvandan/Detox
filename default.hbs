@@ -20,6 +20,7 @@
 
         <!-- CSS: Normalize sheet first, minify everything for production -->
         <link rel="stylesheet" type='text/css' href="/assets/css/main.css"/>
+        <link rel="stylesheet" type='text/css' href="/assets/css/dans.css"/>
         
         <!-- Import web fonts using the link tag instead of CSS @import: http://stackoverflow.com/questions/12316501/including-google-web-fonts-link-or-import -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700' rel='stylesheet' type='text/css'>
@@ -60,6 +61,15 @@
                 {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
                 <a href="{{@blog.url}}"  alt="Blog Title"><h1 class="blog-title heading">{{@blog.title}}</h1></a>
                 <p class="blog-description">{{@blog.description}}</p>
+                <div id="icons">
+                    <a href="http://twitter.com/jcvandan"><img src="/assets/images/twitter.svg"/></a>
+                    <a href="http://github.com/jcvandan"><img src="/assets/images/github.svg"/></a>
+                    <a href="http://stackoverflow.com/users/323051/jcvandan"><img src="/assets/images/stackoverflow.svg"/></a>
+                    <a href="mailto:dan@danielormisher.com"><img src="/assets/images/email.svg"/></a>
+                </div>
+                <div id="menu">
+                    <a href="/about-me">About Me</a>
+                </div>
             </div>
         </header>        
         
