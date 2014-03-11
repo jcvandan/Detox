@@ -1,4 +1,12 @@
 
+p {
+	text-align:justify;
+}
+
+img, video {
+	text-align:center;
+}
+
 #icons {
 	text-align: center;	
 }
