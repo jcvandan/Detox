@@ -4,7 +4,7 @@ p {
 }
 
 img, video {
-	text-align:center;
+	margin:auto;
 }
 
 #icons {
